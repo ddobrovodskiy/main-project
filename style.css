@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Gnuolane Free Cyrillic";
+  src: url("fonts/GnuolaneFreeCyrillic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Gnuolane Free Cyrillic';
+}
+
+.navigation {
+  text-align: center;
+  line-height: 25px;
+}
+
+.navigation li {
+  width: 120px;
+}
+
+.my-menu-item {
+  color: black !important;
+  font-size: 20px;
+}
+
+.my-menu-item:hover {
+  font-size: 25px;
+  -webkit-transform: scale 1.05;
+          transform: scale 1.05;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main__photo {
+  width: 100%;
+  visibility: unset;
+  background-repeat: no-repeat;
+}
+
+.block__content {
+  background-color: white;
+  height: 508px;
+}
+
+.block__content__text {
+  margin-top: -200px;
+  width: 59vw;
+  padding-top: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.main__container__item {
+  position: relative;
+}
+
+.main__container__item__img {
+  padding: 65px;
+  border: 2px solid black;
+}
+
+.main__container__item h1 {
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 31px;
+}
+
+.main__container__item h2 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.main__container__item__button {
+  float: right;
+  padding: 10px 40px 10px 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */
