@@ -36,18 +36,9 @@ body{
 }
 
 .block__content{
-    background-color: white;
-   
-    height: 508px;
-    
-    
-   
-    
-    
-    
-    
-    
 
+    background-color: white;
+    height: 508px;
     &__text{
         margin-top: -200px;
         width: 59vw;
@@ -55,32 +46,35 @@ body{
         
         margin-right: auto;
         margin-left: auto;
-        
-        
         font-size: 20px;
         line-height: 25px;
        
     }
 }
 
-
-
-
-
-
-
-
-
 .main__container{
+    
+    
 
     &__item{
-        position: relative;
+
         
-        
-        
+        margin-bottom: 80px;
         &__img{
-            padding: 65px;
-            border: 2px solid black;
+            width: 531px;
+            height: 400px;
+            position: relative;
+            border: 1px solid grey;
+
+        }
+        img{
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            
         }
         h1{
             margin-top: 20px;
@@ -94,17 +88,57 @@ body{
             margin-top: 15px;
         }
         &__button{
-            // position: absolute;
-            // margin-top: -50px;
-            // margin-left: 25vw;
-            float: right;
-            
+            margin-top: -50px;
+            display: block;
+            margin-left: 370px;
             padding: 10px 40px 10px 40px;
             background-color: white;
             border: 1px solid black;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
         }
         
         
     }
 }
-
+.more_paintings{
+    font-family: "Gnuolane Free Cyrillic";
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+    
+   
+    &:hover{
+        
+        text-decoration: none;
+    
+    }
+}
+.slider{
+    margin-top: 77px;
+}
+.line{
+    margin-top: 50px;
+}
+.foot-bg{
+    background-color: black;
+    height: 267px;
+    margin-top: 200px;
+    padding: 0;
+}
+.footer{
+    padding: 0;
+  
+}
+.painting{
+    margin-top: 160px;
+}
+.h1{
+    margin-top: 120px;
+    font-size: 35px;
+    line-height: 43px;
+    font-family: "Gnuolane Free Cyrillic";
+}
