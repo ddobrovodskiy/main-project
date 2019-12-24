@@ -37,12 +37,15 @@ body{
 
 .block__content{
 
-    background-color: white;
-    height: 508px;
+    background-color: white !important;
+    
+    position: relative;
+    top: -150px;
+    padding-top: 100px;
     &__text{
-        margin-top: -200px;
+        
         width: 59vw;
-        padding-top: 65px;
+        
         
         margin-right: auto;
         margin-left: auto;
