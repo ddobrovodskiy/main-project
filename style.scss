@@ -1,147 +1,169 @@
-
 @font-face {
-    font-family: "Gnuolane Free Cyrillic";  
-    src: url("fonts/GnuolaneFreeCyrillic.ttf") format("truetype"); 
-    font-style: normal; 
+    font-family: "Gnuolane Free Cyrillic";
+    src: url("fonts/GnuolaneFreeCyrillic.ttf") format("truetype");
+    font-style: normal;
     font-weight: normal;
-     }
-body{
-    font-family: 'Gnuolane Free Cyrillic';
-
 }
-.navigation{
+body {
+    font-family: 'Gnuolane Free Cyrillic';
+}
+.navigation {
     text-align: center;
-    
     line-height: 25px;
-    & li{
+    & li {
         width: 120px;
-        
     }
 }
-.my-menu-item{
+.my-menu-item {
     color: black !important;
     font-size: 20px;
-    &:hover{
+    &__active {
         font-size: 25px;
         transform: scale (1.05);
         transition: 0.5s;
     }
+    &:hover {
+        color: blue !important;
+    }
 }
-.main__photo{
+.main__photo {
     width: 100%;
     visibility: unset;
     background-repeat: no-repeat;
-
-    
 }
-
-.block__content{
-
+.block__content {
     background-color: white !important;
-    
     position: relative;
     top: -150px;
     padding-top: 100px;
-    &__text{
-        
+    &__text {
         width: 59vw;
-        
-        
         margin-right: auto;
         margin-left: auto;
         font-size: 20px;
         line-height: 25px;
-       
     }
 }
-
-.main__container{
-    
-    
-
-    &__item{
-
-        
-        margin-bottom: 80px;
-        &__img{
-            width: 531px;
-            height: 400px;
+.boom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__element {
+        width: 45%;
+        &__image {
             position: relative;
-            border: 1px solid grey;
-
+            border: 1px solid black;
+            height: 391px;
         }
-        img{
+        & img {
             position: absolute;
             margin: auto;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
-            
         }
-        h1{
+        h1 {
             margin-top: 20px;
-            
             font-size: 25px;
             line-height: 31px;
         }
-        h2{
+        h2 {
             font-size: 20px;
             line-height: 25px;
             margin-top: 15px;
         }
-        &__button{
+        &__button {
             margin-top: -50px;
-            display: block;
-            margin-left: 370px;
+            float: right;
             padding: 10px 40px 10px 40px;
             background-color: white;
             border: 1px solid black;
-            &:hover{
+            &:hover {
                 background-color: black;
                 color: white;
             }
         }
-        
-        
     }
 }
-.more_paintings{
-    font-family: "Gnuolane Free Cyrillic";
-    font-size: 20px;
-    line-height: 25px;
-    text-decoration: none;
-    color: black;
-    
-   
-    &:hover{
-        
-        text-decoration: none;
-    
+.line {
+    width: 75%;
+    height: 2px;
+    background-color: grey;
+}
+@media screen and(max-width: 1000px) {
+    .item {
+        justify-content: center;
+
     }
 }
-.slider{
+.slider {
     margin-top: 77px;
 }
-.line{
+.line {
     margin-top: 50px;
 }
-.foot-bg{
-    background-color: black;
-    height: 267px;
-    margin-top: 200px;
-    padding: 0;
+.ghost {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    &__aimg {
+        display: block;
+        width: 40%;
+        & img {
+            width: 100%;
+        }
+    }
+
+    &__description {
+        margin-top: 100px;
+        width: 45%;
+        font-size: 18px;
+        font-family: "Gnuolane Free Cyrillic";
+    }
+
+    & h1 {
+        font-size: 30px;
+    }
+
+    & h2 {
+        font-size: 20px;
+    }
+
 }
 .footer{
-    padding: 0;
-  
+    height: 200px;
+    margin-top: 100px;
+
+    &__background{
+    background-color: black;
+    }
+    &__logo{
+        margin-top: 30px;
+    }
+    &__social{
+        margin-top: 30px;
+        padding-left: 10px;
+        word-spacing: 20px;
+        width: 100px;
+    }
+    &__navigation{
+        display: flex;
+        width: 500px;
+        margin: -20px auto;
+        
+        justify-content: space-around;
+        & a{
+        text-decoration: none;
+        color: white;
+    }}
 }
-.painting{
-    margin-top: 160px;
-}
-.h1{
-    margin-top: 120px;
-    font-size: 35px;
-    line-height: 43px;
-    font-family: "Gnuolane Free Cyrillic";
+.aaa{
+    margin-top: -40px ;
+    color: white;
+    text-align: right;
+    float: right;
+    font-family: Gnuolane Free Cyrillic;
+    
+    font-size: 18px;
 }
